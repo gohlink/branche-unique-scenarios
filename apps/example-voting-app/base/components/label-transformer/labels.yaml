@@ -1,0 +1,11 @@
+apiVersion: builtin
+kind: LabelTransformer
+metadata:
+  name: global-labels
+labels:
+  name: webapp-color
+fieldSpecs:
+- kind: Deployment
+  name: webapp-color-deployment
+  path: spec/template/metadata/labels
+  create: false
