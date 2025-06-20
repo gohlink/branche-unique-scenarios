@@ -8,7 +8,7 @@ spec:
   goTemplateOptions: ["missingkey=error"]
   generators:
   - git:
-      repoURL: https://github.com/gohlink/branche-unique.git
+      repoURL: https://github.com/gohlink/branche-unique-scenarios.git
       revision: main
       directories:
       - path: apps/*/envs/prod ## <=== Déploiera seulement les apps possédant un répertoire envs/prod
@@ -19,7 +19,7 @@ spec:
       project: default
 
       source:
-        repoURL: https://github.com/gohlink/branche-unique.git
+        repoURL: https://github.com/gohlink/branche-unique-scenarios.git
         targetRevision: main
         path: '{{.path.path}}' ## <=== Pointe vers le répertoire envs/prod de chaque application trouvée par le générateur
 
