@@ -1,7 +1,0 @@
-# Le fichier base/values.yaml doit inclure les paramètres métiers communs
-# entre les environnements.
-app:
-# exemples fictifs :
-  vatRate: 0.2
-  databaseEncoding: UTF-8
-  externalDatabasePort: 5432
