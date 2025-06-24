@@ -1,0 +1,7 @@
+# Paramètres métier spécifiques à l'environnement
+app:
+  color: red  # red,green,blue,blue2,pink,darkblue
+
+  # exemples fictifs :
+  stripeApiToken: 1230941232452
+  externalDatabaseHost: preprod-postgres.my-domain.com
